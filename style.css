@@ -1,0 +1,206 @@
+@font-face {
+  font-family: Devil Breeze;
+  src: url("fontes/Devil\ Breeze\ Demi.ttf");
+}
+@font-face {
+  font-family: Game Played;
+  src: url("fontes/Game\ Played.ttf");
+}
+@font-face {
+  font-family: Aceh Soft Regular;
+  src: url("fontes/AcehSoft-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+#tudo {
+  text-align: center;
+}
+header {
+  background-color: #fefefe;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 90px;
+  box-sizing: border-box;
+}
+#Menu_Nav
+{
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  font-family: Aceh Soft Regular;
+  font-size: 30px;
+  margin-top: 2%;
+}
+#Menu_Nav a
+{
+  color: #000;
+  padding-right: 10px;
+}
+#Menu_Nav a:hover
+{
+  border-bottom: solid 3px #ab0011;
+}
+
+
+#Menu_Celullar #logo img {
+  width: 90px;
+  height: 85px;
+  padding: 0;
+}
+#Menu_Celullar #Menu_Lateral img {
+  margin-top: 3%;
+  width: 65px;
+  height: 65px;
+  padding: 0;
+  margin-right: 3%;
+}
+.fechado {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+.aberto {
+  visibility: visible;
+  width: auto;
+  height: 100%;
+  left: 0;
+}
+aside {
+  position: fixed;
+  top: 0;
+  background-color: #fefefe;
+  font-size: 17px;
+  font-family: Game Played;
+  box-shadow: 350px 1px 3px 5000px rgba(0, 0, 0, 0.5);
+}
+.A {
+  font-family: Devil Breeze;
+}
+.dashed {
+  width: 90%;
+  border-style: dashed;
+}
+hr {
+  border-color: rgba(150, 150, 150, 0.8);
+}
+aside nav a {
+  text-decoration: none;
+  color: #000;
+}
+.header {
+  position: sticky;
+}
+.fixed {
+  position: fixed;
+}
+#carrossel img {
+  width: 98vw;
+  height: 90vh;
+}
+#Titulo_Historia img, #Titulo_Cursos img
+{
+  width: 250px;
+  height: 50%;
+}
+#Nossa_Historia
+{
+  text-align: justify;
+  font-family: Aceh Soft Regular;
+  font-size: 120%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Aceh Soft Regular;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #000;
+  outline: 0;
+}
+.third {
+  border-color: #6e000b;
+  color: #000;
+  box-shadow: 0 0 40px 40px #c55d65 inset, 0 0 0 0 #c55d65;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #ab0011 inset, 0 0 10px 4px #ab0011;
+}
+a
+{
+  text-decoration: none;
+}
+#Programas img
+{
+  width: 200px;
+  height: 200px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width:915px)
+{
+  #Menu_Lateral img
+  {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+  #Menu_Nav
+  {
+    visibility: visible;
+    width: auto;
+    margin-bottom: 5%;
+  }
+
+  #Programas img
+    {
+      width: 300px;
+      height: 300px;
+      padding-top: 10px;
+      padding: 10px;
+    }
+    #Nossa_Historia
+    {
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 200%;
+    }
+    #Titulo_Historia img, #Titulo_Cursos img
+    {
+      width: 300px;
+      height: 50%;
+    }
+  }
